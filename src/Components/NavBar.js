@@ -11,18 +11,26 @@ export default function NavBar() {
       <div className="menu">
         <div>
           <div>
-            <ul>
+            <ul className="nav-container">
               <li>
-                <Link to="/">Home</Link>
+                <Link className="nav-link" to="/">
+                  Home
+                </Link>
               </li>
               <li>
-                <Link to="/about">About</Link>
+                <Link className="nav-link" to="/about">
+                  About
+                </Link>
               </li>
               <li>
-                <Link to="/gallery">Gallery</Link>
+                <Link className="nav-link" to="/gallery">
+                  Gallery
+                </Link>
               </li>
               <li>
-                <Link to="/contact">Contact</Link>
+                <Link className="nav-link" to="/contact">
+                  Contact
+                </Link>
               </li>
             </ul>
           </div>
