@@ -8,15 +8,17 @@ import NavBar from "./Components/NavBar";
 
 function App() {
   return (
-    <div className="container">
+    <div className="App">
       <NavBar />
-      <div className="content">
-        <Switch>
-          <Route exact path="/" render={() => <Home />} />
-          <Route path="/contact" render={() => <Contact />} />
-          <Route path="/gallery" render={() => <Gallery />} />
-          <Route path="/about" render={() => <About />} />
-        </Switch>
+      <div className="container">
+        <div className="content">
+          <Switch>
+            <Route exact path="/" render={() => <Home />} />
+            <Route path="/contact" render={() => <Contact />} />
+            <Route path="/gallery" render={() => <Gallery />} />
+            <Route path="/about" render={() => <About />} />
+          </Switch>
+        </div>
       </div>
     </div>
   );
