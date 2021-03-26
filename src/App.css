@@ -110,8 +110,7 @@ body {
 	transform: rotate(135deg)
 }
 
-
-.toggler:checked:hover + .hamburger>div {
+.toggler:checked:hover+.hamburger>div {
 	transform: rotate(225deg)
 }
 
@@ -120,15 +119,15 @@ body {
 	top: 0;
 }
 
-.toggler:checked ~ .menu{
+.toggler:checked~.menu {
 	visibility: visible;
 }
 
-.toggler:checked ~ .menu > div{
+.toggler:checked~.menu>div {
 	transform: translateX(-50%) translateY(-50%)
 }
 
-.toggler:checked ~ .menu > div > div{
+.toggler:checked~.menu>div>div {
 	opacity: 1
 }
 
@@ -182,6 +181,6 @@ body {
 	transition: .3s
 }
 
-.menu>div>div>ul>li>a:hover{
+.menu>div>div>ul>li>a:hover {
 	color: #fff44f
 }
